@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "rootDir": "ui/src",
+    "outDir": "ui/dist",
+    "lib": ["ES2022", "DOM"],
+    "strict": false,
+    "noEmitOnError": true,
+    "sourceMap": true
+  },
+  "include": ["ui/src/**/*.ts"]
+}

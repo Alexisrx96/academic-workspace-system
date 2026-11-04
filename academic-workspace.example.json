@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "provider": "blackboard_ultra",
+  "instance": "example",
+  "source_root": "Blackboard",
+  "target": "D:/path/to/vault",
+  "browser_profile": "C:/Users/<user>/AppData/Local/CuaDriver/BrowserProfiles/academic-workspace-live",
+  "memory": {
+    "backend": "sqlite",
+    "database": ".blackboard-sync/memory.sqlite3",
+    "import_legacy_jsonl": true
+  },
+  "tools": {
+    "math_physics_engine": "phs",
+    "prefer_math_physics_verification": true,
+    "require_math_physics_verification": false
+  }
+}
